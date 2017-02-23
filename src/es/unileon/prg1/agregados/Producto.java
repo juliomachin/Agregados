@@ -136,6 +136,7 @@ class Producto{
 	boolean esMenor (Producto otro){
 		return nombre.toLowerCase().compareTo
 				(otro.obtenerNombre().toLowerCase() ) < 0;
+		
 	}
 
 	/**
